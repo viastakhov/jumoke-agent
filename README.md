@@ -49,7 +49,7 @@ Jumoke supports following wellknown libraries:
     final UINT Msg = new UINT(0x018B);
     final WPARAM wParam = new WPARAM(0);
     final LPARAM lParam = new LPARAM(0);  
-    WinApi win = ag.getWinApi();
+    WinApi wn = ag.getWinApi();
     int controlID = au.controlGetHandle("Title", "", "ListBox7");
     HWND hWnd = new HWND(Pointer.createConstant(controlID));
     int count = wn.sendMessage(hWnd, Msg, wParam, lParam).intValue();
