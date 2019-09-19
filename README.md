@@ -26,7 +26,7 @@ Jumoke supports following wellknown libraries:
       
     // Autoit
     AutoIt au = agent.getAutoIt();
-    String txt = au.controlGetText("[X:3; W:430]", "", "[CLASS:Button; INSTANCE:1]");    
+    String txt = au.controlGetText("[X:3; W:430]", "", "[CLASS:Button; INSTANCE:1]");
     assert txt == "some text";
   
     // JDBC
