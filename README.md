@@ -31,7 +31,7 @@ Jumoke supports following wellknown libraries:
   
     // JDBC
     Jdbc dbc = agent.getJdbc("jdbc:sqlserver://<remote machine host>;user=sa;pasword=******;");
-    String sqlStatement = " USE [NamosRus]; " + "SELECT MAX(ID) AS ID FROM MFLines";
+    String sqlStatement = " USE [SomeDB]; SELECT MAX(ID) AS ID FROM SomeTable";
     Document xmldoc = dbc.executeQuery(sqlStatement);
     XPathFactory xpathFactory = XPathFactory.newInstance();
     XPath xpath = xpathFactory.newXPath();
