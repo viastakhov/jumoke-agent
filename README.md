@@ -57,6 +57,4 @@ Jumoke supports following wellknown libraries:
     ```
 
 ## License  
-Copyright © 2019 Vladimir Astakhov [viastakhov@mail.ru]
-
 Distributed under the Eclipse Public License
